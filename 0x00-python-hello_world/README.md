@@ -1,1 +1,1 @@
-hello in my first python project
+First python program
