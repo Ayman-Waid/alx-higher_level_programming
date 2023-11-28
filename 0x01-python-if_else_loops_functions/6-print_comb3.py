@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-for number1 in range(0, 10):
-    for number2 in range(0, 10):
-        if number2 <= number1:
-            continue
-        elif number1 == 8 and number2 == 9:
-            print("{}{}".format(number1, number2))
+# Author - Tolulope Fakunle
+
+for digit1 in range(0, 10):
+    for digit2 in range(digit1 + 1, 10):
+        if digit1 == 8 and digit2 == 9:
+            print("{}{}".format(digit1, digit2))
         else:
-            print("{}{}".format(number1, number2), end=', ')
+            print("{}{}".format(digit1, digit2), end=", ")
